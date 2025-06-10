@@ -58,13 +58,15 @@ min_city = city_revenue.loc[city_revenue['Amount_Gross_Order'].idxmin()]
 ### Sample Output
 
 ```
-The highest income city:
-city_name_fa           Tehran
-Amount_Gross_Order     58,792,350.0
+the highest income city:
+city_name_fa                   تهران
+Amount_Gross_Order    152743141946.0
+Name: 215, dtype: object
 
-The lowest income city:
-city_name_fa           Semnan
-Amount_Gross_Order     1,782,340.0
+the highest income city:
+city_name_fa          شیرین سو
+Amount_Gross_Order      9174.0
+Name: 509, dtype: object
 ```
 
 ---
@@ -90,7 +92,7 @@ A **line chart** showing the quarterly income for each city:
 * **Y-axis**: Gross revenue
 * **Each Line**: Represents one city
 
-![Quarterly Income Chart](https://your-image-link.com/quarterly-income-example.png)
+![Quarterly Income Chart](output.png)
 
 ## 🛠️ Libraries Used
 
