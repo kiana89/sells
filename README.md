@@ -25,13 +25,18 @@ result = grouped.groupby('city_name_fa').apply(top_bottom_products).reset_index(
 ### Sample Output
 
 ```
-  city_name_fa  ID_Item    product_title_fa          Quantity_item
-0        Tehran      101    Premium Tarom Rice           253
-1        Tehran      203    Golden Frying Oil            198
-2        Tehran      110    700g Macaroni                182
-3        Tehran      301    Raisins                        5
-4        Tehran      145    1g Saffron                     7
-5        Tehran      404    Canned Tuna                    9
+     city_name_fa  ID_Item                                   product_title_fa  Quantity_item
+0          آبادان   782834  دستبند طلا 18 عیار گالری طلا باران مدل پلاکدار...            3.0
+1          آبادان   787277          زیردکمه دار آستین کوتاه سی‌مرغ طرح آب‌پاش            3.0
+2          آبادان   768035  هودی زنانه فرانکلین مارشال مدل Hooded Long کد ...            1.0
+3          آبادان   731117            متر اندازه گیری کودک دکودیزاین مدل 1376            1.0
+4          آبادان   768035  هودی زنانه فرانکلین مارشال مدل Hooded Long کد ...            1.0
+...           ...      ...                                                ...            ...
+1585          یزد   745463                      برس مناسب حمام مدل Vent-Ionen            8.0
+1586          یزد   801102        لامپ 3 وات بالب لندن مدل BLDEDROPL پایه E27            7.0
+1587          یزد   724580  حوله استخری دبلیو اند بی هوم طرح زیتون سایز 14...            1.0
+1588          یزد   724968                          اسپیکر بلوتوثی مدل Ws-819            1.0
+1589          یزد   727619             آموزش تصویری ساندویچ و پیترا نشر ریشتر            1.0
 ```
 
 ---
